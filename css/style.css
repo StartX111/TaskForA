@@ -1,57 +1,70 @@
 /*body*/
+/*body*/
 .container{
     width: 1000px;
     margin: auto;
 }
 
 /*header*/
-.header{
+
+/*center*/
+.center{
     display: block;
 }
 
-.header .container{
-    margin-top: 10px;
+.center .inputElement{
+    display: block;
+    padding-top: 10px;
     padding-bottom: 10px;
-    border-bottom: 2px dashed #268413;
-    content: "";
-    clear: both;
-    display: table;
+    background-color: #ffaaee;
 }
 
 .header_input{
-    float: left;
     width: 250px;
 }
 
 .header_text{
-    float: right;
-    width: 60%;
+    width: auto;
+    text-align: center;
 }
 
-/*center*/
-.center{
-    background-color: #777FAA;
+.container{
+    background-color: #FFFFAA;
+
 }
 
-.center .container{
+.container .workElement{
+    display: none;
+}
+
+.elementTable{
     display: flex;
+    border-top: 2px solid black;
 }
 
 .img_element img{
     display: block;
     height: auto;
     width: 250px;
-    margin-right: 10px;
+}
+
+ul{
+    display: none;
 }
 
 .dis_element{
+    padding-top: 10px;
     display: block;
     justify-content: flex-start;
     width: 740px;
 }
 
-.dis_element{
-
+.description {
+    list-style: square outside;
+    padding-top: 5px;
+    padding-left: 25px;
 }
+
+
 /*footer*/
 
