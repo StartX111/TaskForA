@@ -1,0 +1,57 @@
+/*body*/
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+/*header*/
+.header{
+    display: block;
+}
+
+.header .container{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 2px dashed #268413;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.header_input{
+    float: left;
+    width: 250px;
+}
+
+.header_text{
+    float: right;
+    width: 60%;
+}
+
+/*center*/
+.center{
+    background-color: #777FAA;
+}
+
+.center .container{
+    display: flex;
+}
+
+.img_element img{
+    display: block;
+    height: auto;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.dis_element{
+    display: block;
+    justify-content: flex-start;
+    width: 740px;
+}
+
+.dis_element{
+
+}
+/*footer*/
+
