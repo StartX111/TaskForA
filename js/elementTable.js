@@ -83,6 +83,7 @@ class ElementTable {
                     ram: "1 Гб LPDDR3"}
             }
         ];
+        this.render();
     }
 
 
