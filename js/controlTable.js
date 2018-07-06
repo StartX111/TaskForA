@@ -5,10 +5,10 @@ class ControlTable {
 
         this.tableElement = new ElementTable({
             elem: this.el.querySelector('[data-content="select"]'),
-            input: this.el.querySelector('.header_input'),
+            input: this.el.querySelector('[data-content="input"]'),
         });
 
-        this.el.querySelector(".header_input").addEventListener('textInput', this.changeTable.bind(this));
+        this.el.querySelector(".header_input").addEventListener('input', this.changeTable.bind(this));
     }
 
     changeTable(){
