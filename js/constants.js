@@ -1,6 +1,6 @@
 const boardsArray = [
   {name: "orange_pi_plus",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_plus.jpg",
     des: {
       cpu: "AllWinner H3",
@@ -11,7 +11,7 @@ const boardsArray = [
       ram: "1 Гб"}
   },
   {name: "orange_pi_plus_2",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_plus_2.png",
     des: {
       cpu: "AllWinner H3",
@@ -22,7 +22,7 @@ const boardsArray = [
       ram: "2 Гб"}
   },
   {name: "orange_pi_win_plus",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_win_plus.jpg",
     des: {
       cpu: "Allwinner A64",
@@ -33,7 +33,7 @@ const boardsArray = [
       ram: "2 Гб"}
   },
   {name: "orange_pi_zero_plus_2_h3",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_zero_plus_2_h3.jpg",
     des: {
       cpu: "Allwinner H3",
@@ -44,7 +44,7 @@ const boardsArray = [
       ram: "512 Мб"}
   },
   {name: "orange_pi_zero_plus_2_h5",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_zero_plus_2_h5.jpg",
     des: {
       cpu: "Allwinner H5",
@@ -55,7 +55,7 @@ const boardsArray = [
       ram: "512 Мб"}
   },
   {name: "orange_pi_one",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/orange_pi_one.jpg",
     des: {
       cpu: "Allwinner H3",
@@ -66,7 +66,7 @@ const boardsArray = [
       ram: "512 Мб"}
   },
   {name: "orange_pi_one_plus",
-    status: true,
+    visibleStatus: true,
     stringSrc: "img/one_plus.jpg",
     des: {
       cpu: "Allwinner H6",

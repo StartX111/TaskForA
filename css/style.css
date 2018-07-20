@@ -3,6 +3,7 @@
 .container{
     width: 1000px;
     margin: auto;
+    background-color: #FFFFAA;
 }
 
 /*header*/
@@ -28,11 +29,6 @@
     text-align: center;
 }
 
-.container{
-    background-color: #FFFFAA;
-
-}
-
 .elementTable{
     display: flex;
     border-top: 2px solid black;
@@ -44,6 +40,9 @@
     width: 250px;
 }
 
+.modal.container{
+    background-color: #897FFF;
+}
 
 .dis_element{
     padding-top: 10px;
